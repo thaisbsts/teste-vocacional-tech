@@ -1,7 +1,4 @@
-// Inicialize a contagem de escolhas
-let contagemEscolhas = {};
-
-
+function mostrarPerguntas() {
     const section = document.getElementById("perguntas");
     let resultados = "";
     let botao = 0;
@@ -31,17 +28,12 @@ let contagemEscolhas = {};
     }
 
     section.innerHTML = resultados;
+}
 
-
-// Função para gravar e contar escolhas
-function gravarEscolhas() {
-    // Resetar a contagem
-    contagemEscolhas = {};
-
-    // Obter todos os inputs de rádio selecionados
+function contabilizarRespostas() {
+    let contagemEscolhas = {};
     const opcoesSelecionadas = document.querySelectorAll('input[type="radio"]:checked');
 
-    // Contar as escolhas
     opcoesSelecionadas.forEach(input => {
         const valor = input.value;
         if (contagemEscolhas[valor]) {
@@ -51,29 +43,35 @@ function gravarEscolhas() {
         }
     });
     total = 0;
-    // Exibir resultados
     for (const contagem of Object.values(contagemEscolhas)) {
         total += contagem;
     }
+
     maiorValor = 0;
     maiorChave = 0;
+
     for (const [chave, valor] of Object.entries(contagemEscolhas)) {
         if (valor > maiorValor) {
             maiorValor = valor;
             maiorChave = chave;
         }
     }
-
-    const resultadoTotal = document.getElementById("resultadoTotal");
-    resultadoTotal.innerHTML = "<h3>Contagem das escolhas:</h3>";
-        if (total < 8) {
-            resultadoTotal.innerHTML = '<p id="mensagemErro"> Você não respondeu todas as questões. </p>'
-        } else {
-            resultadoTotal.innerHTML = `<p>${mensagens[maiorChave]}</p>`;
-           
-        
+    return { total, maiorChave };
     }
-}
 
+
+    function mostrarResultado() {
+        const { total, maiorChave } = contabilizarRespostas();
+        const resultadoTotal = document.getElementById("resultadoTotal");
+        resultadoTotal.innerHTML = "<h3>Contagem das escolhas:</h3>";
+            if (total < 8) {
+                resultadoTotal.innerHTML = '<p id="mensagemErro"> Você não respondeu todas as questões. </p>'
+            } else {
+                resultadoTotal.innerHTML = `<p>${mensagens[maiorChave]}</p>`;
+            
+            }
+    }
+
+mostrarPerguntas();
 
 

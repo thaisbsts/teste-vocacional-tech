@@ -75,10 +75,6 @@ body {
   border-radius: 5px;
   box-shadow: 0px 0px 10px #00ffdd, 0px 0px 20px #00ffdd; /* Brilho neon ao redor */
 }
-
-
-
-
    
   .botao_resultado {
   display: flex;
@@ -105,10 +101,7 @@ form label {
   
 }
 
-/* Estiliza o botão de rádio */
-form input[type="radio"] {
-  margin-right: 10px; /* Espaço entre o botão de rádio e o texto */
-}
+
 
 .item-opcao {
   margin-bottom: 10px; /* Ajuste o valor conforme necessário */
