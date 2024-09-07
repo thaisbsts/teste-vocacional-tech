@@ -1,0 +1,74 @@
+/* Estilos globais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Section com o formulário */
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Radio buttons */
+  input[type="radio"] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: #007bff; /* Azul claro */
+  }
+
+  #mensagemErro {
+    color: red;
+    background-color: #ffdddd;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+  }
+  
+  /* Labels com espaçamento */
+  label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+/* Adiciona um espaço entre os elementos do formulário */
+form label {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  margin-bottom: 10px; /* Espaço entre as opções */
+  line-height: 5; /* Ajuste o valor para aumentar ou diminuir o espaçamento */
+  
+}
+
+/* Estiliza o botão de rádio */
+form input[type="radio"] {
+  margin-right: 10px; /* Espaço entre o botão de rádio e o texto */
+}
+
+.item-opcao {
+  margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
+
+.item-resultado h2 {
+  text-align: center;
+}
