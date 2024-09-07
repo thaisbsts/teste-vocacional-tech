@@ -66,7 +66,7 @@ function gravarEscolhas() {
 
     const resultadoTotal = document.getElementById("resultadoTotal");
     resultadoTotal.innerHTML = "<h3>Contagem das escolhas:</h3>";
-        if (total < 7) {
+        if (total < 8) {
             resultadoTotal.innerHTML = '<p id="mensagemErro"> Você não respondeu todas as questões. </p>'
         } else {
             resultadoTotal.innerHTML = `<p>${mensagens[maiorChave]}</p>`;

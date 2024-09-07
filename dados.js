@@ -95,48 +95,53 @@ let dados = [ // seguindo o padrão camelCase
 
 
 let mensagens = {
-    "Front-end": `<h2>Front-end!</h2>  
+    "Front-end": `<div class="texto_resultado"> <h2>Front-end!</h2>  
     <p> Seu perfil indica um forte interesse em Front-end! Você tem um grande potencial para criar interfaces incríveis e experiências de usuário memoráveis. 
     A Alura oferece diversos cursos para você se aprofundar em HTML, CSS, JavaScript e frameworks como React e Angular, e se tornar um desenvolvedor Front-end completo. 
     Clique no botão abaixo e veja o que você pode aprender na maior escola online de tecnologia do Brasil! </p> 
     <a href="https://www.alura.com.br/escola-front-end" target="_blank">
-        <button>QUERO ME TORNAR UM DESENVOLVEDOR FRONT-END!</button>
-    </a>`,
+        <button class="futuristic-button">QUERO ME TORNAR UM DESENVOLVEDOR FRONT-END!</button>
+    </a> </div> `,
 
-    "Back-end": `<h2>Back-end!</h2> <p> Seu perfil demonstra um grande potencial para a área de Back-end! Você tem afinidade com lógica de programação e gosta de trabalhar nos bastidores das aplicações. A Alura oferece cursos completos em linguagens como Python, Java e Node.js, além de frameworks como Django e Spring, para você se tornar um desenvolvedor Back-end completo. 
+    "Back-end": `<div class="texto_resultado"> <h2>Back-end!</h2> <p> Seu perfil demonstra um grande potencial para a área de Back-end! Você tem afinidade com lógica de programação e gosta de trabalhar nos bastidores das aplicações. A Alura oferece cursos completos em linguagens como Python, Java e Node.js, além de frameworks como Django e Spring, para você se tornar um desenvolvedor Back-end completo. 
     Clique no botão abaixo e veja o que você pode aprender na maior escola online de tecnologia do Brasil! </p> 
     <a href="https://www.alura.com.br/escola-programacao" target="_blank">
-        <button>QUERO ME TORNAR UM DESENVOLVEDOR BACK-END!</button>
-    </a>`,
+        <button class="futuristic-button">QUERO ME TORNAR UM DESENVOLVEDOR BACK-END!</button>
+    </a> </div> `,
 
-    "Mobile": `<h2>Mobile!</h2> <p> Seu perfil indica um forte interesse em desenvolvimento mobile! Você tem um grande potencial para criar aplicativos para smartphones e tablets. A Alura oferece cursos completos em plataformas como Android (Kotlin) e iOS (Swift), para que você possa desenvolver aplicativos nativos e híbridos.
+    "Mobile": `<div class="texto_resultado"> <h2>Mobile!</h2> <p> Seu perfil indica um forte interesse em desenvolvimento mobile! Você tem um grande potencial para criar aplicativos para smartphones e tablets. A Alura oferece cursos completos em plataformas como Android (Kotlin) e iOS (Swift), para que você possa desenvolver aplicativos nativos e híbridos.
     Clique no botão abaixo e veja o que você pode aprender na maior escola online de tecnologia do Brasil! </p> 
     <a href="https://www.alura.com.br/escola-mobile" target="_blank">
-        <button>QUERO ME TORNAR UM DESENVOLVEDOR MOBILE!</button>`,
+        <button class="futuristic-button">QUERO ME TORNAR UM DESENVOLVEDOR MOBILE!</button>`,
 
-    "Devops": `<h2>DevOps!</h2><p> Seu perfil indica um forte interesse em Devops! Você tem um grande potencial para automatizar processos, garantir a confiabilidade de sistemas e promover a colaboração entre equipes de desenvolvimento e operações. A Alura oferece cursos completos em ferramentas como Docker, Kubernetes, Ansible e Git, para que você possa se tornar um DevOps Engineer completo.
+    "Devops": `<div class="texto_resultado"> <h2>DevOps!</h2><p> Seu perfil indica um forte interesse em Devops! Você tem um grande potencial para automatizar processos, garantir a confiabilidade de sistemas e promover a colaboração entre equipes de desenvolvimento e operações. A Alura oferece cursos completos em ferramentas como Docker, Kubernetes, Ansible e Git, para que você possa se tornar um DevOps Engineer completo.
     Clique no botão abaixo e veja o que você pode aprender na maior escola online de tecnologia do Brasil! </p> 
     <a href="https://www.alura.com.br/escola-devops" target="_blank">
-        <button>QUERO ME TORNAR UM DEVOPS!</button>`,
+        <button class="futuristic-button">QUERO ME TORNAR UM DEVOPS!</button>
+         </a> </div>`,
 
 
-    "UX & Design": `<h2>UX & Design!</h2><p>  "Seu perfil indica um forte interesse em UX & Design! Você tem um grande potencial para criar experiências digitais incríveis e intuitivas. A Alura oferece cursos completos em ferramentas como Figma, Adobe XD e princípios de design como UX Writing e Design Thinking, para que você possa criar interfaces que encantam os usuários.
+    "UX & Design": `<div class="texto_resultado"> <h2>UX & Design!</h2><p>  Seu perfil indica um forte interesse em UX & Design! Você tem um grande potencial para criar experiências digitais incríveis e intuitivas. A Alura oferece cursos completos em ferramentas como Figma, Adobe XD e princípios de design como UX Writing e Design Thinking, para que você possa criar interfaces que encantam os usuários.
     Clique no botão abaixo e veja o que você pode aprender na maior escola online de tecnologia do Brasil! </p> 
     <a href="https://www.alura.com.br/escola-design-ux" target="_blank">
-        <button>QUERO ME TORNAR UM PROFISSIONAL DE UX & DESIGN!</button>`,
+        <button class="futuristic-button">QUERO ME TORNAR UM PROFISSIONAL DE UX & DESIGN!</button>
+         </a> </div>`,
 
-    "Data Science": `<h2>Data Science!</h2><p> Seu perfil demonstra um grande potencial para a área de Data Science! Você tem afinidade com estatística, machine learning e análise de dados. A Alura oferece cursos completos em linguagens como Python e R, além de bibliotecas como Pandas, NumPy e Scikit-learn, para que você possa extrair insights valiosos de dados.
+    "Data Science": `<div class="texto_resultado"> <h2>Data Science!</h2><p> Seu perfil demonstra um grande potencial para a área de Data Science! Você tem afinidade com estatística, machine learning e análise de dados. A Alura oferece cursos completos em linguagens como Python e R, além de bibliotecas como Pandas, NumPy e Scikit-learn, para que você possa extrair insights valiosos de dados.
     Clique no botão abaixo e veja o que você pode aprender na maior escola online de tecnologia do Brasil! </p> 
     <a href="https://www.alura.com.br/escola-data-science" target="_blank">
-        <button>QUERO ME TORNAR UM PROFISSIONAL DE CIÊNCIA DE DADOS!</button>`,
+        <button class="futuristic-button">QUERO ME TORNAR UM PROFISSIONAL DE CIÊNCIA DE DADOS!</button>
+         </a> </div>`,
 
-    'Inovação & Gestão': `<h2>Inovação & Gestão!</h2> Seu perfil indica um forte interesse em Inovação e Gestão! Você tem um grande potencial para liderar projetos, fomentar a criatividade e impulsionar o crescimento de empresas. A Alura oferece cursos completos em metodologias ágeis, design thinking e gestão de projetos, para que você possa desenvolver habilidades essenciais para liderar equipes e transformar negócios.
+    'Inovação & Gestão': `<div class="texto_resultado"> <h2>Inovação & Gestão!</h2> Seu perfil indica um forte interesse em Inovação e Gestão! Você tem um grande potencial para liderar projetos, fomentar a criatividade e impulsionar o crescimento de empresas. A Alura oferece cursos completos em metodologias ágeis, design thinking e gestão de projetos, para que você possa desenvolver habilidades essenciais para liderar equipes e transformar negócios.
     Clique no botão abaixo e veja o que você pode aprender na maior escola online de tecnologia do Brasil! </p> 
     <a href="https://www.alura.com.br/escola-inovacao-gestao" target="_blank">
-        <button>QUERO ME TORNAR UM PROFISSIONAL DE INOVAÇÃO & GESTÃO!</button>`,
+        <button class="futuristic-button">QUERO ME TORNAR UM PROFISSIONAL DE INOVAÇÃO & GESTÃO!</button>
+         </a> </div>`,
 
-    "Inteligência Artificial": `<h2>Inteligência Artificial!</h2> Seu perfil demonstra um grande potencial para a área de Inteligência Artificial! Você tem afinidade com algoritmos de machine learning e deep learning. A Alura oferece cursos completos em frameworks como TensorFlow e PyTorch, para que você possa desenvolver modelos de IA e criar soluções inovadoras.
+    "Inteligência Artificial": `<div class="texto_resultado"> <h2>Inteligência Artificial!</h2> Seu perfil demonstra um grande potencial para a área de Inteligência Artificial! Você tem afinidade com algoritmos de machine learning e deep learning. A Alura oferece cursos completos em frameworks como TensorFlow e PyTorch, para que você possa desenvolver modelos de IA e criar soluções inovadoras.
     Clique no botão abaixo e veja o que você pode aprender na maior escola online de tecnologia do Brasil! </p> 
     <a href="https://www.alura.com.br/escola-inteligencia-artificial" target="_blank">
-        <button>QUERO ME TORNAR UM PROFISSIONAL DE INTELIGÊNCIA ARTIFICIAL!</button>`,
+        <button class="futuristic-button">QUERO ME TORNAR UM PROFISSIONAL DE INTELIGÊNCIA ARTIFICIAL!</button>
+         </a> </div>`,
 }

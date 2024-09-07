@@ -34,16 +34,61 @@ body {
   }
   
   input[type="radio"]:checked {
-    background-color: #007bff; /* Azul claro */
+    background-color: #000000; /* Azul claro */
   }
 
   #mensagemErro {
+    text-align: center;
     color: red;
     background-color: #ffdddd;
     padding: 10px;
     border: 1px solid red;
     border-radius: 5px;
   }
+
+  #botao_res {
+    font-family: 'Consolas', 'Courier New', Courier, monospace; 
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+  }
+  /* Estilo do botão */
+.futuristic-button {
+  margin: 10px;
+  background-color: hsl(0, 0%, 6%); /* Fundo preto puro */
+  color: #00ffdd; /* Texto verde neon estilo Matrix */
+  font-family: 'Consolas', 'Courier New', Courier, monospace; /* Fonte monoespaçada */
+  font-size: 18px;
+  border: 2px solid #00ffdd; /* Borda verde neon */
+  padding: 12px 24px;
+  cursor: pointer;
+  text-transform: uppercase; /* Texto em caixa alta */
+  letter-spacing: 1.5px; /* Espaçamento entre letras */
+  transition: all 0.4s ease; /* Transições suaves */
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #00ffdd, 0px 0px 20px #00ffdd; /* Brilho neon ao redor */
+}
+
+
+
+
+   
+  .botao_resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .texto_resultado {
+    font-size: 18px; /* Ajuste o valor para o tamanho desejado */
+}
   
   /* Labels com espaçamento */
   label {
@@ -71,4 +116,9 @@ form input[type="radio"] {
 
 .item-resultado h2 {
   text-align: center;
+  
+}
+.texto_resultado{
+  text-align: center;
+  margin: 0 20px;
 }
