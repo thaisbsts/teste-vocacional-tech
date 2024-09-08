@@ -3,6 +3,8 @@ Ao começar a se interessar por tecnologia (mais especificamente por programaç�
 
 As áreas escolhidas para o teste (Programação, Front-end, Data Science, Inteligência Artificial, DevOps, UX & Design, Mobile e Inovação & Gestão) são inspiradas nas próprias escolas da Alura. A seguir, você verá mais sobre o processo de desenvolvimento do site.
 
+[CLIQUE AQUI PARA ACESSAR O SITE](https://teste-vocacional-tech.vercel.app/)
+
 
 ## 🚀 O começo de tudo:  Imersão Dev com Gemini | Alura
 Este projeto faz parte da Imersão Dev com Gemini, uma imersão para aprender HTML, CSS e JavaScript do zero! Além disso, o Gemini, IA do Google, também é utilizado para que consigamos entender como a Inteligência Artificial ajuda a otimizar o trabalho no desenvolvimento web.
