@@ -1,14 +1,14 @@
 let dados = [ // seguindo o padrão camelCase
     { 
     pergunta: "Com qual dessas habilidades você mais se identifica?",
-    "Front-end": "Gosto de usar minha criatividade e sou capaz de gerar ideias inovadoras e soluções originais para os desafios que surgem",
-    "Back-end": "Tenho facilidade em decompor problemas complexos em etapas menores e mais gerenciáveis, encontrando soluções eficientes e otimizadas",
-    "Mobile": "Sou capaz de me ajustar rapidamente a novas situações e tecnologias, aprendendo e evoluindo constantemente",
-    "Devops": "Acredito que uma comunicação clara e eficaz é fundamental para o sucesso de qualquer equipe, e busco sempre construir relacionamentos colaborativos",
-    "UX & Design": "Coloco-me no lugar das pessoas e busco entender suas necessidades e expectativas",
-    "Data Science": "Sou capaz de analisar dados e informações de forma crítica, identificando padrões e tomando decisões baseadas em evidências",
-    "Inovação & Gestão": "Tenho paixão por inspirar e motivar equipes, conduzindo-as a alcançar resultados excepcionais",
-    "Inteligência Artificial": "Sou impulsionado pela curiosidade e busco constantemente novas oportunidades para aprender e desenvolver soluções inovadoras para os desafios do mundo atual"
+    "Front-end": "Gosto de usar minha criatividade e sou capaz de gerar ideias inovadoras e soluções originais para os desafios que surgem.",
+    "Back-end": "Tenho facilidade em decompor problemas complexos em etapas menores e mais gerenciáveis, encontrando soluções eficientes e otimizadas.",
+    "Mobile": "Sou capaz de me ajustar rapidamente a novas situações e tecnologias, aprendendo e evoluindo constantemente.",
+    "Devops": "Acredito que uma comunicação clara e eficaz é fundamental para o sucesso de qualquer equipe, e busco sempre construir relacionamentos colaborativos.",
+    "UX & Design": "Coloco-me no lugar das pessoas e busco entender suas necessidades e expectativas.",
+    "Data Science": "Sou capaz de analisar dados e informações de forma crítica, identificando padrões e tomando decisões baseadas em evidências.",
+    "Inovação & Gestão": "Tenho paixão por inspirar e motivar equipes, conduzindo-as a alcançar resultados excepcionais.",
+    "Inteligência Artificial": "Sou impulsionado pela curiosidade e busco constantemente novas oportunidades para aprender e desenvolver soluções inovadoras para os desafios do mundo atual."
 },
 
 {
@@ -17,9 +17,9 @@ let dados = [ // seguindo o padrão camelCase
     "Back-end": "Tenho forte interesse em desenvolver soluções escaláveis, capazes de suportar um grande volume de usuários e dados sem comprometer a performance.",
     "Mobile": "Gosto da ideia de otimizar o desempenho de aplicativos e de me ajustar rapidamente a novas tecnologias.",
     "Devops": "Gosto de promover uma visão holística do desenvolvimento de software, desde a concepção até a manutenção, e me dedico para promover um ambiente colaborativo e motivador.",
-    "UX & Design": "Sou apaixonado por design e coloco-me no lugar das pessoas para entender suas necessidades e expectativas.",
+    "UX & Design": "Sou orientado para o usuário e busco criar soluções que atendam às suas necessidades de forma intuitiva e eficiente.",
     "Data Science": "Tenho interesse em manipular grandes volumes de dados e sou capaz de analisar dados e informações de forma crítica, identificando padrões e tomando decisões baseadas em evidências.",
-    "Inovação & Gestão": "Tenho paixão por inspirar e motivar equipes, promovendo uma visão holística e dedicando-me ao máximo para alcançar resultados excepcionais.",
+    "Inovação & Gestão": "Gosto de me dedicar ao máximo para promover um ambiente de trabalho colaborativo e motivador.",
     "Inteligência Artificial": "Sou fascinado pelo potencial do aprendizado de máquina para gerar soluções inovadoras, como o Google Gemini, e busco constantemente novas oportunidades para aprender e desenvolver soluções."
 },
  {
@@ -28,9 +28,9 @@ let dados = [ // seguindo o padrão camelCase
     "Back-end": "Tenho forte interesse em implementar a lógica de negócios nas minhas soluções e gosto de trabalhar com metodologias ágeis, promovendo-as no meu time.",
     "Mobile": "Gosto de trabalhar com desenvolvimento de aplicativos mobile, explorando as funcionalidades e recursos exclusivos de cada plataforma.",
     "Devops": "Acredito na importância da automatização de processos para aumentar a produtividade e reduzir erros, e sou curioso em aprender ferramentas avançadas para automatizar atividades que antes exigiam inteligência humana.",
-    "UX & Design": "Gosto de criar soluções intuitivas e fáceis de usar e sou apaixonado por design, buscando sempre incorporar as melhores práticas em meus projetos.",
+    "UX & Design": "Gosto de criar soluções intuitivas e fáceis de usar, buscando sempre incorporar as melhores práticas em meus projetos.",
     "Data Science": "Tenho interesse em como a tecnologia deve gerar valor para as organizações e sou entusiasta de metodologias ágeis, aplicando essas práticas na análise de dados.",
-    "Inovação & Gestão": "Tenho interesse em como a tecnologia deve gerar valor para as organizações e sou um entusiasta de metodologias ágeis, buscando promover essas práticas no meu time.",
+    "Inovação & Gestão": "Tenho interesse em como a tecnologia deve gerar valor para as organizações.",
     "Inteligência Artificial": "Sou curioso em aprender ferramentas avançadas para automatizar atividades que antes exigiam inteligência humana e tenho um forte interesse em como a tecnologia deve gerar valor para as organizações."
 },
 
@@ -47,47 +47,47 @@ let dados = [ // seguindo o padrão camelCase
 },
 {
     pergunta: "Qual dessas profissões mais te atrai?",
-    "Front-end": "Desenvolvedor da parte visual de um site ou aplicação",
-    "Back-end": "Desenvolvedor da lógica e operações do sistema",
-    "Mobile": "Desenvolvedor de aplicativos para dispositivos móveis (celular, por exemplo)",
-    "Devops": "Responsável por integrar e automatizar os processos entre as equipes de desenvolvimento (criação do sistema) e operações (gestão e manutenção da infraestrutura em que o sistema roda)",
-    "UX & Design": "Designer de Experiência do Usuário",
-    "Data Science": "Cientista de Dados",
-    "Inovação & Gestão": "Gerente de produto, Líder de equipe",
-    "Inteligência Artificial": "Engenheiro de IA"
+    "Front-end": "Desenvolvedor da parte visual de um site ou aplicação.",
+    "Back-end": "Desenvolvedor da lógica e operações do sistema.",
+    "Mobile": "Desenvolvedor de aplicativos para dispositivos móveis (celular, por exemplo).",
+    "Devops": "Responsável por integrar e automatizar os processos entre as equipes de desenvolvimento (criação do sistema) e operações (gestão e manutenção da infraestrutura em que o sistema roda).",
+    "UX & Design": "Designer de Experiência do Usuário.",
+    "Data Science": "Cientista de Dados.",
+    "Inovação & Gestão": "Gerente de produto, Líder de equipe.",
+    "Inteligência Artificial": "Engenheiro de IA."
 },
 {
     pergunta: "Qual dessas atividades você mais se imagina fazendo?",
-    "Front-end": "Criar layouts responsivos para garantir uma boa experiência em diferentes dispositivos",
-    "Back-end": "Criar APIs (Interfaces de Programação de Aplicativos) para permitir a comunicação entre diferentes sistemas",
-    "Mobile": "Criar interfaces intuitivas e adaptadas para telas menores",
-    "Devops": "Configurar e gerenciar ambientes de desenvolvimento e produção",
-    "UX & Design": "Realizar pesquisas para entender as necessidades e comportamentos dos usuários",
-    "Data Science": "Aplicar técnicas estatísticas para analisar os dados",
-    "Inovação & Gestão": "Identificar novas oportunidades de negócios e tecnologias",
-    "Inteligência Artificial": "Criar algoritmos para realizar reconhecimento de imagem, processamento de linguagem natural e tomada de decisão"
+    "Front-end": "Criar layouts responsivos para garantir uma boa experiência em diferentes dispositivos.",
+    "Back-end": "Criar APIs (Interfaces de Programação de Aplicativos) para permitir a comunicação entre diferentes sistemas.",
+    "Mobile": "Criar interfaces intuitivas e adaptadas para telas menores.",
+    "Devops": "Configurar e gerenciar ambientes de desenvolvimento e produção.",
+    "UX & Design": "Realizar pesquisas para entender as necessidades e comportamentos dos usuários.",
+    "Data Science": "Aplicar técnicas estatísticas para analisar os dados.",
+    "Inovação & Gestão": "Identificar novas oportunidades de negócios e tecnologias.",
+    "Inteligência Artificial": "Criar algoritmos para realizar reconhecimento de imagem, processamento de linguagem natural e tomada de decisão."
 },
 {
     pergunta: "Qual função mais fascina você?",
-    "Front-end": "Otimizar o desempenho das páginas para garantir um carregamento rápido",
-    "Back-end": "Trabalhar com bancos de dados para armazenar e gerenciar informações",
-    "Mobile": "Otimizar o desempenho dos aplicativos para garantir uma boa experiência do usuário",
-    "Devops": "Monitorar o desempenho das aplicações e resolver problemas",
-    "UX & Design": "Colaborar com desenvolvedores para garantir que o design seja implementado corretamente",
-    "Data Science": "Criar modelos preditivos para tomar decisões mais informadas",
-    "Inovação & Gestão": "Promover uma cultura de inovação dentro da organização",
-    "Inteligência Artificial": "Treinar modelos de IA"
+    "Front-end": "Otimizar o desempenho das páginas para garantir um carregamento rápido.",
+    "Back-end": "Trabalhar com bancos de dados para armazenar e gerenciar informações.",
+    "Mobile": "Otimizar o desempenho dos aplicativos para garantir uma boa experiência do usuário.",
+    "Devops": "Monitorar o desempenho das aplicações e resolver problemas.",
+    "UX & Design": "Colaborar com desenvolvedores para garantir que o design seja implementado corretamente.",
+    "Data Science": "Criar modelos preditivos para tomar decisões mais informadas.",
+    "Inovação & Gestão": "Promover uma cultura de inovação dentro da organização.",
+    "Inteligência Artificial": "Treinar modelos de IA."
 }, 
 {
     pergunta: "Qual dessas tarefas você gostaria que fizesse parte da sua rotina de trabalho?",
-    "Front-end": "Implementar interações e animações para tornar a interface mais dinâmica",
-    "Back-end": "Desenhar a lógica e a estrutura de um aplicativo",
-    "Mobile": "Configurar, assinar e publicar aplicativos nas lojas como Google Play e App Store",
-    "Devops": "Configurar e gerenciar servidores em ambientes de nuvem",
-    "UX & Design": "Criar wireframes, protótipos e fluxos de usuário para visualizar a experiência do usuário",
-    "Data Science": "Transformar dados em estratégias organizacionais",
-    "Inovação & Gestão": "Gerenciar equipes multidisciplinares",
-    "Inteligência Artificial": "Acompanhar as últimas tendências em IA"
+    "Front-end": "Implementar interações e animações para tornar a interface mais dinâmica.",
+    "Back-end": "Desenhar a lógica e a estrutura de um aplicativo.",
+    "Mobile": "Configurar, assinar e publicar aplicativos nas lojas como Google Play e App Store.",
+    "Devops": "Configurar e gerenciar servidores em ambientes de nuvem.",
+    "UX & Design": "Criar wireframes, protótipos e fluxos de usuário para visualizar a experiência do usuário.",
+    "Data Science": "Transformar dados em estratégias organizacionais.",
+    "Inovação & Gestão": "Gerenciar equipes multidisciplinares.",
+    "Inteligência Artificial": "Acompanhar as últimas tendências em IA."
 }
 
 ]
