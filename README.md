@@ -52,18 +52,31 @@ Com base nas informações que o Gemini que forneceu, eu criei uma relação des
 Contudo, eu queria acrescentar uma fluidez às opções de respostas, então pedi ajuda à IA para transformar as características que eu mapeei em sentenças, conforme prompt abaixo:
 
 ```
-
+Eu quero que você crie uma sentença para cada uma dessa características, por exemplo:
+Criatividade - Gosto de usar minha criatividade e sou... [complete]
+Criatividade
+Pensamento algorítmico
+Adaptabilidade
+Melhorar a comunicação e a colaboração entre equipes
+Empatia com o Usuário
+Pensamento Analítico
+Liderança
+Curiosidade em solucionar problemas complexos e atuais
 ```
+Eu fiz isso para todas as características que eu relacionei e meu mapeamento de perguntas e opções ficou assim:
+[Planilha em PDF - Mapeamento de Sentenças](https://drive.google.com/file/d/1OeRvr6f7uwFO5pkg-U00RQ3LMSw3ogQH/view?usp=sharing)
 
 ## ⚙️ Desenvolvimento da Solução
 Eu comecei separando os arquivos em index.html, style.css, site.js e dados.js (para seguir a orientação dos instrutores do curso de separar o arquivo de JavaScriot em dois: um para os dados e outro para a lógica). 
 
-No dados.js, eu fiz uma variável 'dados' que é uma lista de dicionários. Cada dicionário corresponde a uma pergunta e suas opções de resposta (valores), cada resposta está associada a uma área (chave). Além disso, há um outro dicionário (fora de dados) chamado 'mensagens' que armazena as áreas (chaves) e as mensagens correspondentes que serão exibidas quando o resultado do teste for mostrado.
+No dados.js, eu delcarei uma variável 'dados' que é uma lista de dicionários. Cada dicionário corresponde a uma pergunta e suas opções de resposta (valores), cada resposta está associada a uma área (chave). Além disso, há um outro dicionário (fora de dados) chamado 'mensagens' que armazena as áreas (chaves) e as mensagens correspondentes que serão exibidas quando o resultado do teste for mostrado.
 
 No site.js, há três funções: 
 01. mostrarPerguntas(): Vai percorrer a lista 'dados' (do dados.js) e vai mostrar na tela as perguntas e opções. Como eu já tive contato com outras linguagens de programação, eu sabia que eu precisava dar várias opções ao usuário e que ele só poderia selecionar uma delas, ou seja, eu necessitava implementar Radio Buttons. Porém, eu não sabia, até então, como implementá-los em HTML, então eu solicitei ajuda ao Gemini e fui pedindo adaptações de acordo com o contexto do meu projeto.
-02. contabilizarRespostas(): Depois que o usuário seleciona as opções, é necessário contabilizá-las para realizar o cálculo do resultado. Novamente, pedi ajuda ao Gemini e perguntei como eu poderia guardar as respostas. Ele me indicou o querySelectorAll, um método disponível no objeto document. Essa função retorna o total de respostas identificadas e a chave (área) do maior valor.
+02. contabilizarRespostas(): Depois que o usuário seleciona as opções, é necessário contabilizá-las para realizar o cálculo do resultado. Novamente, pedi ajuda ao Gemini e perguntei como eu poderia guardar as respostas. Ele me indicou o querySelectorAll, um método disponível no objeto document. A função (contabilizarRespostas()) retorna o total de respostas identificadas e a chave (área) do maior valor.
 03. mostrarResultado(): Recebe o retorno da função anterior, verifica se ele respondeu todas as questões e exibe o resultado com a mensagem, além de um botão que leva o usuário à parte do site da Alura que fala sobre a área, o mercado e os cursos que são oferecidos.
+
+Depois de tudo pronto e testado, pedi à IA para me ajudar com os comentários.
 
 ## 📦 Pontos de Melhoria
 
