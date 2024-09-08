@@ -1,4 +1,5 @@
-let dados = [ // seguindo o padrão camelCase
+// Lista de dicionários, no qual cada um abrange a pergunta e as opções de resposta
+let dados = [ 
     { 
     pergunta: "Com qual dessas habilidades você mais se identifica?",
     "Front-end": "Gosto de usar minha criatividade e sou capaz de gerar ideias inovadoras e soluções originais para os desafios que surgem.",
@@ -93,7 +94,7 @@ let dados = [ // seguindo o padrão camelCase
 ]
 
 
-
+// Dicionário que armazena as mensagens que irão aparecer quando o teste for preenchido e os links para o site da Alura
 let mensagens = {
     "Front-end": `<div class="texto_resultado"> <h2>Front-end!</h2>  
     <p> Seu perfil indica um forte interesse em Front-end! Você tem um grande potencial para criar interfaces incríveis e experiências de usuário memoráveis. 

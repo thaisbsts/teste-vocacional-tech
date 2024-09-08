@@ -1,117 +1,141 @@
 /* Estilos globais */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-  }
-  
-  /* Header */
-  header {
-    text-align: center;
-    padding: 2rem;
-    background-color: #222;
-    color: #fff;
-  }
-  
-  /* Section com o formulário */
-  section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-  
-  /* Radio buttons */
-  input[type="radio"] {
-    -webkit-appearance: none;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #ccc;
-    border-radius: 50%;
-    margin-right: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="radio"]:checked {
-    background-color: #000000; /* Azul claro */
-  }
+  font-family: 'Roboto', sans-serif; /* Define a fonte global como 'Roboto' */
+  margin: 0; /* Remove a margem padrão do corpo */
+  padding: 0; /* Remove o preenchimento padrão do corpo */
+  background-color: #f0f0f0; /* Define a cor de fundo como cinza claro */
+  color: #333; /* Define a cor do texto como cinza escuro */
+}
 
-  #mensagemErro {
-    text-align: center;
-    color: red;
-    background-color: #ffdddd;
-    padding: 10px;
-    border: 1px solid red;
-    border-radius: 5px;
-  }
+.observacao {
+  color: #888; /* Define a cor do texto como cinza claro para menor destaque */
+  font-style: italic; /* Aplica estilo itálico ao texto */
+  margin-top: 50px; /* Adiciona espaçamento acima da observação */
+}
 
-  #botao_res {
-    font-family: 'Consolas', 'Courier New', Courier, monospace; 
-    background-color: black;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: none;
-  }
-  /* Estilo do botão */
+h1 {
+  font-family: 'Cascadia Code', monospace; /* Usa uma fonte similar ao VS Code */
+  font-size: 2.5rem; /* Tamanho grande para destaque */
+  font-weight: 700; /* Define o peso da fonte como grosso */
+  color: #007acc; /* Azul típico do logo do VS Code */
+  background-color: #1e1e1e; /* Fundo escuro para o título */
+  padding: 20px; /* Espaçamento interno ao redor do texto */
+  border-radius: 8px; /* Bordas arredondadas para o fundo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar o título */
+  text-align: center; /* Centraliza o texto */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  letter-spacing: 2px; /* Aumenta o espaçamento entre as letras */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave ao alterar cores */
+}
+
+h1:hover {
+  background-color: #007acc; /* Altera o fundo para azul ao passar o mouse */
+  color: #fff; /* Altera o texto para branco ao passar o mouse */
+}
+
+/* Header */
+header {
+  text-align: center; /* Centraliza o conteúdo do cabeçalho */
+  padding: 2rem; /* Espaçamento interno do cabeçalho */
+  background-color: #222; /* Fundo escuro */
+  color: #fff; /* Cor do texto branca */
+}
+
+/* Section com o formulário */
+section {
+  max-width: 800px; /* Define a largura máxima da seção */
+  margin: 0 auto; /* Centraliza a seção horizontalmente */
+  padding: 2rem; /* Espaçamento interno da seção */
+}
+
+/* Radio buttons */
+input[type="radio"] {
+  -webkit-appearance: none; /* Remove o estilo padrão do radio button no WebKit */
+  width: 20px; /* Define a largura do botão */
+  height: 20px; /* Define a altura do botão */
+  border: 2px solid #ccc; /* Define a borda do botão */
+  border-radius: 50%; /* Define a forma redonda */
+  margin-right: 5px; /* Espaço à direita do botão */
+  cursor: pointer; /* Altera o cursor para indicar interatividade */
+}
+
+input[type="radio"]:checked {
+  background-color: #000000; /* Define a cor do fundo ao selecionar o radio button */
+}
+
+#mensagemErro {
+  text-align: center; /* Centraliza o texto */
+  color: red; /* Define a cor do texto como vermelho */
+  background-color: #ffdddd; /* Define a cor de fundo como rosa claro */
+  padding: 10px; /* Adiciona preenchimento interno */
+  border: 1px solid red; /* Borda vermelha */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+#botao_res {
+  font-family: 'Consolas', 'Courier New', Courier, monospace; /* Fonte estilo terminal/código */
+  background-color: black; /* Fundo preto */
+  color: white; /* Texto branco */
+  padding: 15px 32px; /* Define o espaçamento interno do botão */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  text-decoration: none; /* Remove o sublinhado do texto */
+  display: inline-block; /* Exibe o botão em linha */
+  font-size: 16px; /* Define o tamanho da fonte */
+  margin: 4px 2px; /* Define a margem externa do botão */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+  border: none; /* Remove a borda padrão */
+}
+
+/* Estilo do botão com efeito futurista */
 .futuristic-button {
-  margin: 10px;
+  margin: 10px; /* Espaçamento externo */
   background-color: hsl(0, 0%, 6%); /* Fundo preto puro */
   color: #00ffdd; /* Texto verde neon estilo Matrix */
-  font-family: 'Consolas', 'Courier New', Courier, monospace; /* Fonte monoespaçada */
-  font-size: 18px;
+  font-family: 'Consolas', 'Courier New', Courier, monospace; /* Fonte estilo terminal */
+  font-size: 18px; /* Tamanho do texto */
   border: 2px solid #00ffdd; /* Borda verde neon */
-  padding: 12px 24px;
-  cursor: pointer;
-  text-transform: uppercase; /* Texto em caixa alta */
-  letter-spacing: 1.5px; /* Espaçamento entre letras */
-  transition: all 0.4s ease; /* Transições suaves */
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px #00ffdd, 0px 0px 20px #00ffdd; /* Brilho neon ao redor */
+  padding: 12px 24px; /* Espaçamento interno do botão */
+  cursor: pointer; /* Cursor de interatividade */
+  text-transform: uppercase; /* Texto em maiúsculas */
+  letter-spacing: 1.5px; /* Espaçamento entre as letras */
+  transition: all 0.4s ease; /* Transição suave para todas as propriedades */
+  border-radius: 5px; /* Bordas arredondadas */
+  box-shadow: 0px 0px 10px #00ffdd, 0px 0px 20px #00ffdd; /* Efeito de brilho neon ao redor do botão */
 }
-   
-  .botao_resultado {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
 
-  .texto_resultado {
-    font-size: 18px; /* Ajuste o valor para o tamanho desejado */
+.botao_resultado {
+  display: flex; /* Define layout flexível */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
 }
-  
-  /* Labels com espaçamento */
-  label {
-    display: block;
-    margin-bottom: 1rem;
-  }
+
+.texto_resultado {
+  font-size: 18px; /* Tamanho do texto */
+}
+
+/* Labels com espaçamento */
+label {
+  display: block; /* Exibe o label em um bloco separado */
+  margin-bottom: 1rem; /* Espaçamento inferior para separar do próximo elemento */
+}
 
 /* Adiciona um espaço entre os elementos do formulário */
 form label {
-  display: flex;
-  align-items: center; /* Alinha os itens verticalmente ao centro */
-  margin-bottom: 10px; /* Espaço entre as opções */
-  line-height: 5; /* Ajuste o valor para aumentar ou diminuir o espaçamento */
-  
+  display: flex; /* Exibe o label com layout flexível */
+  align-items: center; /* Alinha o texto e os radio buttons verticalmente */
+  margin-bottom: 10px; /* Espaço entre os labels */
+  line-height: 5; /* Aumenta o espaçamento entre as linhas */
 }
 
-
-
 .item-opcao {
-  margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+  margin-bottom: 10px; /* Espaçamento inferior entre as opções de resposta */
 }
 
 .item-resultado h2 {
-  text-align: center;
-  
+  text-align: center; /* Centraliza o título do item de resultado */
 }
-.texto_resultado{
-  text-align: center;
-  margin: 0 20px;
+
+.texto_resultado {
+  text-align: center; /* Centraliza o texto do resultado */
+  margin: 0 20px; /* Adiciona margem lateral para espaçamento */
 }

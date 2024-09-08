@@ -1,32 +1,35 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 para o navegador entender -->
+<html lang="pt-br"> <!-- Define a linguagem como português do Brasil -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização para dispositivos móveis, garantindo responsividade -->
+    <link rel="stylesheet" href="style.css"> <!-- Vincula o arquivo CSS para aplicar estilos ao documento -->
     
-    <title>Teste Vocacional</title>
+    <title>Teste Vocacional</title> <!-- Define o título da página que aparece na aba do navegador -->
 </head>
 
     
-<body>
-    <header>
-        <h1>Teste Vocacional de Tecnologia</h1>
-        <h3> Descubra qual área da programação mais se encaixa com o seu perfil!</h3>
-        <h3> Você responderá 8 perguntas sobre suas habilidades e interesses. Ao final, descubra qual caminho é o ideal para você e como a Alura pode te ajudar nessa jornada! </h3>
-        <h4> Observação: talvez você se identifique com mais de uma opção, mas selecione a que mais te define.</h4>
-    </header>
-    <main>
-        <section class="item" id="perguntas"></section>
-        <div class="botao_resultado">
-            <button id="botao_res" onclick="mostrarResultado()">Ver Resultado</button>
-          </div>
-        <div id="resultadoTotal"></div>
+<body> <!-- Início do corpo do documento HTML -->
+    <header> <!-- Início do cabeçalho do site -->
+        <h1>Teste Vocacional de Tecnologia</h1> <!-- Título principal da página -->
+        <h3> Descubra qual área da programação mais se encaixa com o seu perfil!</h3> <!-- Subtítulo explicando o objetivo do teste -->
+        <h3> Você responderá 8 perguntas sobre suas habilidades e interesses. Ao final, descubra qual caminho é o ideal para você e como a Alura pode te ajudar nessa jornada! </h3> <!-- Outro subtítulo que fornece mais detalhes sobre o teste -->
+        <h4 class="observacao"> Observação: talvez você se identifique com mais de uma opção, mas selecione a que mais te define.</h4> <!-- Um lembrete adicional para o usuário com uma classe específica para estilização -->
+  </header> <!-- Fim do cabeçalho -->
+    
+    <main> <!-- Início do conteúdo principal da página -->
+        <section class="item" id="perguntas"></section> <!-- Seção onde as perguntas do teste serão inseridas dinamicamente pelo JavaScript, com uma classe e ID para fácil estilização e manipulação -->
+        
+        <div class="botao_resultado"> <!-- Div que agrupa o botão de exibir o resultado -->
+            <button id="botao_res" onclick="mostrarResultado()">Ver Resultado</button> <!-- Botão que dispara a função JavaScript "mostrarResultado" ao ser clicado -->
+        </div>
+        
+        <div id="resultadoTotal"></div> <!-- Div onde o resultado final do teste será exibido após a interação com o botão -->
+    </main> <!-- Fim da seção principal do conteúdo -->
+    
+    <script src="dados.js"></script> <!-- Inclusão do arquivo JavaScript "dados.js" que contém os dados do teste -->
+    <script src="site.js"></script> <!-- Inclusão do arquivo JavaScript "site.js" que manipula as interações do site -->
+</body> <!-- Fim do corpo do documento HTML -->
 
-    </main>
-    <script src="dados.js"></script>
-    <script src="site.js"></script>
-</body>
-
-</html>
+</html> <!-- Fim do documento HTML -->
